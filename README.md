@@ -37,7 +37,7 @@ eb deploy
 
 | ENVIRONMENT | URL  |
 | :---------: | :--: |
-|    PROD     | http://spring-boot-demo-dev.us-west-2.elasticbeanstalk.com/hello |
+|    PROD     | http://spring-boot-demo-dev.us-east-2.elasticbeanstalk.com/hello |
 
 ## TODO
 
