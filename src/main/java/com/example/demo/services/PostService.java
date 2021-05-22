@@ -32,9 +32,9 @@ public class PostService {
         Post post2 = new Post();
         post2.setId("2");
         post2.setDate(toISODate());
-        post2.setTitle("My Title");
-        post2.setContent("My Content");
-        post2.setUser("1");
+        post2.setTitle("My Title 2");
+        post2.setContent("My Content 2");
+        post2.setUser("2");
         post2.setReactions(new Reactions());
         posts.add(post2);
     }
@@ -110,6 +110,18 @@ public class PostService {
         }
 
         return postToRemove;
+    }
+
+    public List<Post> getPostsByUserId(String id) {
+        List<Post> postsByUser = new ArrayList<Post>();
+
+        for (Post post : posts) {
+            if (post.getUser().equals(id)) {
+                postsByUser.add(post);
+            }
+        }
+
+        return postsByUser;
     }
 
 }

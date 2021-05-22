@@ -36,6 +36,12 @@ public class PostController {
     }
 
     @CrossOrigin(origins = "*")
+    @GetMapping("/postsByUser/{id}")
+    public List<Post> posts(@PathVariable String id) {
+        return this.postService.getPostsByUserId(id);
+    }
+
+    @CrossOrigin(origins = "*")
     @PostMapping("/posts")
     public Post addPost(@RequestBody Post post) {
         return this.postService.addPost(post);

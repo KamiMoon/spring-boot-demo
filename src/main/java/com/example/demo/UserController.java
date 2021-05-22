@@ -26,7 +26,7 @@ public class UserController {
     }
 
     @CrossOrigin(origins = "*")
-    @GetMapping("/users/{id}")
+    @GetMapping("/user/{id}")
     public User getUser(@PathVariable String id) {
         return this.userService.getUser(id);
     }
