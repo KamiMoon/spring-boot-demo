@@ -1,11 +1,11 @@
 version: 0.1
 phases:
-  install:
-    commands:
-      - ./mvnw clean install
+  # install:
+  #   commands:
+  #     - ./mvnw clean install
   # pre_build:
   #   commands:
   #     - npm test
-  # build:
-  #   commands:
-  #     - eb deploy
+  build:
+    commands:
+      - ./mvnw clean install

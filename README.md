@@ -17,8 +17,11 @@ https://spring.io/quickstart
 
 Creates demo-0.0.1-SNAPSHOT.jar
 
+## Deploy - CI
 
-## Deploy
+Codepipeline is setup to automatically deploy on merge to main branch
+
+## Deploy - local
 
 export AWS_PROFILE=admin-user
 
@@ -39,7 +42,3 @@ eb deploy
 | :---------: | :--: |
 |    PROD     | http://spring-boot-demo-dev.us-east-2.elasticbeanstalk.com/hello |
 
-## TODO
-
-Github
-CodePipeline
