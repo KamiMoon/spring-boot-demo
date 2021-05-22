@@ -1,4 +1,4 @@
-package com.example.restservice;
+package com.example.models;
 
 public class Greeting {
 

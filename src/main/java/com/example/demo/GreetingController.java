@@ -2,7 +2,7 @@ package com.example.demo;
 
 import java.util.concurrent.atomic.AtomicLong;
 
-import com.example.restservice.Greeting;
+import com.example.models.Greeting;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
