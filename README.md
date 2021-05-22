@@ -21,6 +21,9 @@ Creates demo-0.0.1-SNAPSHOT.jar
 
 Codepipeline is setup to automatically deploy on merge to main branch
 
+https://us-east-2.console.aws.amazon.com/codesuite/codepipeline/pipelines/spring-boot-demo-dev/view?region=us-east-2
+
+
 ## Deploy - local
 
 export AWS_PROFILE=admin-user
@@ -42,3 +45,4 @@ eb deploy
 | :---------: | :--: |
 |    PROD     | http://spring-boot-demo-dev.us-east-2.elasticbeanstalk.com/hello |
 
+https://us-east-2.console.aws.amazon.com/elasticbeanstalk/home?region=us-east-2#/environment/dashboard?applicationName=spring-boot-demo&environmentId=e-pqarxkymyc
