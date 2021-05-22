@@ -1,7 +1,7 @@
 package com.example.models;
 
-class Reactions {
-    public int thumpsUp;
+public class Reactions {
+    public int thumbsUp;
     public int hooray;
     public int heart;
     public int rocket;
